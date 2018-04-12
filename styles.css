@@ -1,0 +1,75 @@
+body{
+	background-image: url("background.jpg");
+ 
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("pexels-hero.jpeg");
+
+    /* Set a specific height */
+    height: 50%;
+    
+   
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-size: 20px;
+}
+
+/* the parrallax */
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+ 
+h1{
+	color: #EB5757 !important;
+    margin:0px;
+    margin-top:40px;
+    color:#8181F7;
+    font-size:28px;
+}
+p{
+    margin:0px;
+    margin-top:40px;
+    color:#8181F7;
+    font-size:20px;
+
+}
+#date
+{
+    margin:0px;
+    margin-top:40px;
+    color:silver;
+    font-size:40px;
+    
+    padding:10px;
+    
+
+}
+#time
+{
+   margin:0px;
+    margin-top:40px;
+    font-size:100px;
+    color:silver;
+        padding:10px;
+    
+    
+}
